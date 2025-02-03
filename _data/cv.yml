@@ -21,7 +21,7 @@
 - title: Work Experience
   type: time_table
   contents:
-    - title: Product Security Engineer
+    - title: Vulnerability Researcher
       institution: Lucid Motors
       year: 2023 to Present
       description:
@@ -65,7 +65,7 @@
   type: time_table
   contents:
     - title: <a href="https://github.com/angr/patcherex">Patcherex</a>
-      year: 2019-now
+      year: 2019-2024
       description: Shellphish's automated patching engine, originally created for the Cyber Grand Challenge.
 
 - title: Honors and Awards
