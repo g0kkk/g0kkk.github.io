@@ -1,0 +1,24 @@
+platform="$(uname -s)-$(uname -m)"
+case $platform in
+Linux-x86_64)
+  url="https://github.com/graalvm/graal-languages-ea-builds/raw/HEAD/truffleruby/versions/latest-jvm-linux-amd64.url"
+  ;;
+Linux-aarch64)
+  url="https://github.com/graalvm/graal-languages-ea-builds/raw/HEAD/truffleruby/versions/latest-jvm-linux-aarch64.url"
+  ;;
+Darwin-x86_64)
+  url="https://github.com/graalvm/graal-languages-ea-builds/raw/HEAD/truffleruby/versions/latest-jvm-darwin-amd64.url"
+  ;;
+Darwin-arm64)
+  url="https://github.com/graalvm/graal-languages-ea-builds/raw/HEAD/truffleruby/versions/latest-jvm-darwin-aarch64.url"
+  ;;
+*)
+  colorize 1 "Unsupported platform: $platform"
+  return 1
+  ;;
+esac
+
+urlfile="$(mktemp "${TMP}/truffleruby.XXXXXX")"
+http get "$url" "$urlfile"
+install_package "truffleruby+graalvm-dev" "$(<"$urlfile")" truffleruby
+rm -f "$urlfile"
