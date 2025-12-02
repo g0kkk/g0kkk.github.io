@@ -22,7 +22,6 @@ navigation: []                     # accepts {file, title, url, icon, sidebarico
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:gkgokulkrishna33@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/g0kkk"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
