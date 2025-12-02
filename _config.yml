@@ -1,5 +1,5 @@
-title: "Gokulkrishna Menon"
-author: "Gokulkrishna Menon"
+title: "Gokul Krishna"
+author: "Gokul Krishna"
 description: "Security Engineer at Lucid Motors. Computer Security researcher focused on vulnerability analysis, fuzzing, and dynamic patching."
 permalink: /:title/
 lang: "en"
@@ -30,6 +30,7 @@ comments:
 
 footer:
   - {title: LinkedIn, url: "https://www.linkedin.com/in/gokulkrishna-p-menon-53369bb9"}
+  - {title: Google Scholar, url: "https://scholar.google.com/citations?hl=en&user=kYIE-IsAAAAJ"}
 
 plugins:
  - jekyll-feed
