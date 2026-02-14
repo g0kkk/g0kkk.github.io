@@ -30,6 +30,7 @@ comments:
 footer:
   - {title: LinkedIn, url: "https://www.linkedin.com/in/gokulkrishna-p-menon-53369bb9"}
   - {title: Google Scholar, url: "https://scholar.google.com/citations?hl=en&user=kYIE-IsAAAAJ"}
+  - {title: Resume, url: "/assets/docs/gokul.pdf"}
 
 plugins:
  - jekyll-feed
