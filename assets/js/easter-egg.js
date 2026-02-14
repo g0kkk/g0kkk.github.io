@@ -90,12 +90,13 @@
     var style = document.createElement('style');
     style.textContent =
       '#easter-terminal {' +
-      '  position: fixed; bottom: 30px; right: 30px; width: 440px; max-width: 88vw;' +
-      '  height: 340px; background: #0d1117; border-radius: 8px; z-index: 99999;' +
+      '  position: fixed; bottom: 0; left: 0; right: 0; margin: 0 auto;' +
+      '  width: 440px; max-width: 90vw;' +
+      '  height: 300px; background: #0d1117; border-radius: 8px 8px 0 0; z-index: 99999;' +
       '  font-family: "SF Mono", "Fira Code", "Consolas", "Menlo", monospace;' +
       '  font-size: 12px; line-height: 1.5;' +
-      '  box-shadow: 0 4px 24px rgba(0,0,0,0.6); display: flex; flex-direction: column;' +
-      '  overflow: hidden; border: 1px solid #30363d;' +
+      '  box-shadow: 0 -4px 24px rgba(0,0,0,0.6); display: flex; flex-direction: column;' +
+      '  overflow: hidden; border: 1px solid #30363d; border-bottom: none;' +
       '}' +
       '#et-bar {' +
       '  background: #161b22; padding: 6px 12px; display: flex; justify-content: space-between;' +
